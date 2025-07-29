@@ -14,7 +14,7 @@ const cards = document.querySelectorAll(".card");
             a.closest(".card").querySelector(".play-btn").textContent = "▶";
           });
           audio.play();
-          playBtn.textContent = "⏸";
+          playBtn.textContent = "❚❚";
         } else {
           audio.pause();
           playBtn.textContent = "▶";
