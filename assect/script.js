@@ -36,3 +36,19 @@ const cards = document.querySelectorAll(".card");
         audio.currentTime = (clickX / width) * duration;
       });
     });
+ function findText() {
+  let input = document.getElementById("findInput").value.toLowerCase();
+  let allText = document.body.card.innerText.toLowerCase();
+  if (allText.includes(input)) {
+    alert("Text found on this page!");
+  } else {
+    alert("Text not found.");
+  }
+}
+  
+
+
+function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
