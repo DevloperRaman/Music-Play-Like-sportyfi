@@ -52,3 +52,11 @@ function toggleMenu() {
       const menu = document.getElementById('menu');
       menu.classList.toggle('active');
     }
+
+   
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("loader").style.display = "none";
+    }, 100); // 2000ms = 2 seconds
+  });
+ 

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spotify Music Cards with Progress</title>
+    <link rel="stylesheet" href="assect/style.css">
+   
+</head>
+
+<body>
+    <div id="loader">
+  <div class="spinner"></div>
+</div>
+     <nav class="navbar">
+    <div class="logo"> My Music</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu" id="menu">
+      <a href="index.html">Home</a>
+      <a href="punjabi.html">Punjabi</a>
+      <a href="index.html">Haryanvi Pop </a>
+      <a href="Musiccode.html">Sad song </a>
+      <a  href="#" onclick="location.reload()"> 
+  
+ 
+ 
+Refresh
+  </a>
+    </div>
+  </nav>
+  
+
+
+    <div class="container">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="Music/dasi na.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Dasi Na Mere Baare</p>
+                <p class="artist">Goldy Desi Crew</p>
+
+                <audio src="Music/Dasi_Na_Mere_Baare_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="Music/ehsaas.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Ehsaas</p>
+                <p class="artist">Sheera Jasvir</p>
+
+                <audio src="Music/Ehsaas_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="Music/narazgi.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Narazgi</p>
+                <p class="artist">Aarsh Benipal</p>
+
+                <audio src="Music/Narazgi_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+    
+    
+
+    
+        <div class="card">
+            <img src="Music/Rabb.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Rabb</p>
+                <p class="artist">Arjan Dhillon</p>
+
+                <audio src="Music/Rabb_Jane_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+            <img src="Music/Gangajal.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Gangajal</p>
+                <p class="artist">Gurman Maan</p>
+
+                <audio src="Music/Gangajal_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+            <img src="Music/bekadraa.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Bekadraa</p>
+                <p class="artist">Sippy Gill</p>
+
+                <audio src="Music/Bekadraa_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+   
+        <div class="card">
+            <img src="https://c4.wallpaperflare.com/wallpaper/396/940/939/limitless-tv-show-poster-wallpaper-preview.jpg"
+                alt="Album Art">
+            <div class="card-content">
+                <p class="song-title"> Limitless</p>
+                <p class="artist">Chandra Brar</p>
+
+                <audio src="Music/Limitless_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="card">
+            <img src="Music/Galwakdi.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Galwakdi</p>
+                <p class="artist">Tarsem Jassar</p>
+
+                <audio src="Music/Galwakdi_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="card">
+            <img src="Music/Dhundli.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Dhundli Dhundle</p>
+                <p class="artist">Bunny Johal</p>
+
+                <audio src="Music/Dhundle Dhundle - Bunny Johal.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+<div class="card">
+            <img src="Music/Creez.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Creez</p>
+                <p class="artist">Tarsem Jassar</p>
+
+                <audio src="Music/Creez - Tarsem Jassar.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Music/Aadat.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Aadat</p>
+                <p class="artist">Ninja</p>
+
+                <audio src="Music/Aadat_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/Pindan.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Pindan De Jaye</p>
+                <p class="artist">Sajjan Adeeb</p>
+
+                <audio src="Music/Pindan De Jaye - Sajjan Adeeb.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/confession.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Confession</p>
+                <p class="artist">Sabi Bhinder</p>
+
+                <audio src="Music/Confession - Sabi Bhinder.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/Jandi.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Jandi Jandi</p>
+                <p class="artist">Seera Buttar</p>
+
+                <audio src="Music/Jandi_Jandi_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/Chhad dila.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Chhad Dila</p>
+                <p class="artist">Various</p>
+
+                <audio src="Music/Chhad_Dila.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/10 saal.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">10 Saal Zindagi</p>
+                <p class="artist">Gurchahal</p>
+
+                <audio src="Music/10_Saal_Zindagi_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/Tera Naal Jeena.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Tear Naal Jeena</p>
+                <p class="artist">Kanth Kaler</p>
+
+                <audio src="Music/Tere Naal Jeenae - Kanth Kaler.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Music/Dream.jpeg.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Dream</p>
+                <p class="artist">Inder Chahal, Karan Aujla</p>
+
+                <audio src="Music/Dream_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+  <div class="card">
+            <img src=" https://raag.fm/image/250/2288513/12_Saal_(Baarah_Saal)_Bilal_Saeed.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">12 Saal</p>
+                <p class="artist">Bilal Saeed</p>
+
+                <audio src="Music/12 Saal (Original Edit) - (Raag.Fm).mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+
+  <div class="card">
+            <img src=" https://covers.djpunjab.pro/image/485044/Zindagi-Di-Paudi-Blessed-1.jpg" alt="Album Art">
+            <div class="card-content">
+                <p class="song-title">Zindagi Di Paudi </p>
+                <p class="artist">  Millind Gaba</p>
+
+                <audio src="Music/Zindagi_Di_Paudi_Blessed_1.mp3"></audio>
+
+                <div class="player-controls">
+                    <button class="play-btn">▶</button>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">0:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="assect/script1.js"></script>
+
+</html>
